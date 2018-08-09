@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="34"
+    android:viewportHeight="34">
+    <group
+        android:name="rleg"
+        android:rotation="90"
+        android:pivotX="11"
+        android:pivotY="27">
+
+        <path
+            android:name="path"
+            android:pathData="@string/path_rleg"
+            android:fillColor="#0c0"
+            android:strokeColor="?android:attr/windowBackground"
+            android:strokeWidth="0.5" />
+    </group>
+    <group
+        android:name="rleg"
+        android:rotation="-90"
+        android:pivotX="13"
+        android:pivotY="27">
+        <path
+            android:name="lleg"
+            android:pathData="@string/path_lleg"
+            android:fillColor="#0c0"
+            android:strokeColor="?android:attr/windowBackground"
+            android:strokeWidth="0.5" />
+    </group>
+</vector>

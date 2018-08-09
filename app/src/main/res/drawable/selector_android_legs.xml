@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/enabled"
+        android:drawable="@drawable/android_legs_sat"
+        android:state_selected="true" />
+
+    <item
+        android:id="@+id/disabled"
+        android:drawable="@drawable/android_legs_stand"
+        android:state_selected="false" />
+
+    <transition
+        android:drawable="@drawable/anim_android_legs_sit"
+        android:fromId="@id/disabled"
+        android:toId="@id/enabled" />
+
+    <transition
+        android:drawable="@drawable/anim_android_legs_stand"
+        android:fromId="@id/enabled"
+        android:toId="@id/disabled" />
+
+</animated-selector>

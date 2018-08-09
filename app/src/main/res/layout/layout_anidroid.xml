@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_common"
+        android:layout_marginEnd="@dimen/margin_common"
+        android:layout_marginStart="@dimen/margin_common"
+        android:layout_marginTop="@dimen/margin_common"
+        app:srcCompat="@drawable/android_body"
+        android:contentDescription="@string/droid_body" />
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_common"
+        android:layout_marginEnd="@dimen/margin_common"
+        android:layout_marginStart="@dimen/margin_common"
+        android:layout_marginTop="@dimen/margin_common"
+        app:srcCompat="@drawable/selector_android_head"
+        android:contentDescription="@string/droid_head" />
+
+    <ImageView
+        android:id="@+id/legs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_common"
+        android:layout_marginEnd="@dimen/margin_common"
+        android:layout_marginStart="@dimen/margin_common"
+        android:layout_marginTop="@dimen/margin_common"
+        app:srcCompat="@drawable/selector_android_legs"
+        android:contentDescription="@string/droid_legs" />
+
+    <ImageView
+        android:id="@+id/larm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_common"
+        android:layout_marginEnd="@dimen/margin_common"
+        android:layout_marginStart="@dimen/margin_common"
+        android:layout_marginTop="@dimen/margin_common"
+        app:srcCompat="@drawable/selector_android_larm"
+        android:contentDescription="@string/droid_left_arm" />
+
+    <ImageView
+        android:id="@+id/rarm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_common"
+        android:layout_marginEnd="@dimen/margin_common"
+        android:layout_marginStart="@dimen/margin_common"
+        android:layout_marginTop="@dimen/margin_common"
+        app:srcCompat="@drawable/selector_android_rarm"
+        android:contentDescription="@string/droid_right_arm" />
+</FrameLayout>

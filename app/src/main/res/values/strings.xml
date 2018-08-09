@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Android Animation</string>
+
+    <string name="path_larm">M 20.5 16 C 19.672 16 19 16.672 19 17.5 L 19 24.5 C 19 25.328 19.672 26 20.5 26 C 21.328 26 22 25.328 22 24.5 L 22 17.5 C 22 16.672 21.328 16 20.5 16</string>
+    <string name="path_rleg">M 8 27 L 8 32.5 C 8 33.328 8.672 34 9.5 34 C 10.328 34 11 33.328 11 32.5 L 11 27 Z</string>
+    <string name="path_lleg">M 13 27 L 13 32.5 C 13 33.328 13.672 34 14.5 34 C 15.328 34 16 33.328 16 32.5 L 16 27 Z</string>
+    <string name="path_rarm">M 3.5 16 C 2.672 16 2 16.672 2 17.5 L 2 24.5 C 2 25.328 2.672 26 3.5 26 C 4.328 26 5 25.328 5 24.5 L 5 17.5 C 5 16.672 4.328 16 3.5 16 Z</string>
+
+    <string name="invitation_text">Hello, Android!</string>
+
+    <string name="droid_body">droid body</string>
+    <string name="droid_head">droid head</string>
+    <string name="droid_legs">droid legs</string>
+    <string name="droid_left_arm">droid left arm</string>
+    <string name="droid_right_arm">droid right arm</string>
+
+    <string name="left_arm_handler">left arm handler</string>
+    <string name="right_arm_handler">right arm handler</string>
+    <string name="head_handler">head handler</string>
+    <string name="squat_handler">squat handler</string>
+</resources>

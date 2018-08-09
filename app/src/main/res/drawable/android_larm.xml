@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="34"
+    android:viewportHeight="34">
+    <group
+        android:name="larm"
+        android:pivotX="20.5"
+        android:pivotY="17">
+        <path
+            android:name="path"
+            android:pathData="@string/path_larm"
+            android:fillColor="#0c0"
+            android:strokeColor="?android:attr/windowBackground"
+            android:strokeWidth="0.5" />
+    </group>
+</vector>
