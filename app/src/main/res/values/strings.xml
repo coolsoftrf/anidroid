@@ -18,4 +18,6 @@
     <string name="right_arm_handler">right arm handler</string>
     <string name="head_handler">head handler</string>
     <string name="squat_handler">squat handler</string>
+    <string name="flash_on">Turn flash on</string>
+    <string name="flash_off">Turn flash off</string>
 </resources>
