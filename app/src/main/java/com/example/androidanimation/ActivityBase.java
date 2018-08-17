@@ -44,6 +44,10 @@ abstract class ActivityBase extends AppCompatActivity {
 
 
     public void setupFlashButton() {
+        if (button == null) {
+            return;
+        }
+
         if (mFlashController.isFlashSupported()) {
             button.setVisibility(View.VISIBLE);
 
